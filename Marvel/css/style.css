@@ -1,0 +1,75 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.header{
+    text-align: center;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.lancamento{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 4%;
+    background-image: linear-gradient(to bottom, black, #202020);
+}
+
+.lancamento img{
+    width: 60%;
+}
+
+.cinza{
+    color: grey;
+}
+
+h2{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #202020);
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: #202020;
+}
+
+.news div{
+    padding: 10px;
+}
+
+.news img{
+    width: 80%;
+}
+
+.news div p{
+    padding: 4%;
+    text-align: left
+}
+
+.rodape{
+    background-color: #202020;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
